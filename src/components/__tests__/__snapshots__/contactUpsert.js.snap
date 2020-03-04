@@ -1,0 +1,370 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact upsert should render correctly for Add Contact. 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "aspectRatio": 1,
+        "borderRadius": 50,
+        "borderWidth": 2,
+        "marginBottom": 50,
+        "opacity": 1,
+        "overflow": "hidden",
+        "width": 100,
+      }
+    }
+  >
+    <Image
+      resizeMode="cover"
+      source={
+        Object {
+          "uri": "ic_camera",
+        }
+      }
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "borderColor": "#3498DB",
+        "borderRadius": 5,
+        "borderWidth": 1,
+        "fontWeight": "600",
+        "marginBottom": 20,
+        "maxWidth": 300,
+        "paddingHorizontal": 10,
+        "width": "100%",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      onChangeText={[Function]}
+      onSubmitEditing={[Function]}
+      placeholder="Name"
+      rejectResponderTermination={true}
+      returnKeyType="next"
+      underlineColorAndroid="transparent"
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "borderColor": "#3498DB",
+        "borderRadius": 5,
+        "borderWidth": 1,
+        "fontWeight": "600",
+        "marginBottom": 20,
+        "maxWidth": 300,
+        "paddingHorizontal": 10,
+        "width": "100%",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      keyboardType="number-pad"
+      onChangeText={[Function]}
+      onSubmitEditing={[Function]}
+      placeholder="Mobile"
+      rejectResponderTermination={true}
+      returnKeyType="next"
+      underlineColorAndroid="transparent"
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "borderColor": "#3498DB",
+        "borderRadius": 5,
+        "borderWidth": 1,
+        "fontWeight": "600",
+        "marginBottom": 20,
+        "maxWidth": 300,
+        "paddingHorizontal": 10,
+        "width": "100%",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      keyboardType="number-pad"
+      onChangeText={[Function]}
+      placeholder="Landline"
+      rejectResponderTermination={true}
+      returnKeyType="done"
+      underlineColorAndroid="transparent"
+    />
+  </View>
+  <View
+    accessible={true}
+    focusable={true}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#3498DB",
+        "borderRadius": 5,
+        "height": 40,
+        "justifyContent": "center",
+        "marginBottom": 10,
+        "marginHorizontal": 40,
+        "maxWidth": 200,
+        "opacity": 1,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#fff",
+          "fontSize": 20,
+          "fontWeight": "700",
+        }
+      }
+    >
+      Save
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Contact upsert should render correctly for Update Contact. 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "aspectRatio": 1,
+        "borderRadius": 50,
+        "borderWidth": 2,
+        "marginBottom": 50,
+        "opacity": 1,
+        "overflow": "hidden",
+        "width": 100,
+      }
+    }
+  >
+    <Image
+      resizeMode="cover"
+      source={
+        Object {
+          "uri": "ic_camera",
+        }
+      }
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "borderColor": "#3498DB",
+        "borderRadius": 5,
+        "borderWidth": 1,
+        "fontWeight": "600",
+        "marginBottom": 20,
+        "maxWidth": 300,
+        "paddingHorizontal": 10,
+        "width": "100%",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      onChangeText={[Function]}
+      onSubmitEditing={[Function]}
+      placeholder="Name"
+      rejectResponderTermination={true}
+      returnKeyType="next"
+      underlineColorAndroid="transparent"
+      value="Rick"
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "borderColor": "#3498DB",
+        "borderRadius": 5,
+        "borderWidth": 1,
+        "fontWeight": "600",
+        "marginBottom": 20,
+        "maxWidth": 300,
+        "paddingHorizontal": 10,
+        "width": "100%",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      keyboardType="number-pad"
+      onChangeText={[Function]}
+      onSubmitEditing={[Function]}
+      placeholder="Mobile"
+      rejectResponderTermination={true}
+      returnKeyType="next"
+      underlineColorAndroid="transparent"
+      value="2233"
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "borderColor": "#3498DB",
+        "borderRadius": 5,
+        "borderWidth": 1,
+        "fontWeight": "600",
+        "marginBottom": 20,
+        "maxWidth": 300,
+        "paddingHorizontal": 10,
+        "width": "100%",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      keyboardType="number-pad"
+      onChangeText={[Function]}
+      placeholder="Landline"
+      rejectResponderTermination={true}
+      returnKeyType="done"
+      underlineColorAndroid="transparent"
+      value="2211"
+    />
+  </View>
+  <View
+    accessible={true}
+    focusable={true}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#3498DB",
+        "borderRadius": 5,
+        "height": 40,
+        "justifyContent": "center",
+        "marginBottom": 10,
+        "marginHorizontal": 40,
+        "maxWidth": 200,
+        "opacity": 1,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#fff",
+          "fontSize": 20,
+          "fontWeight": "700",
+        }
+      }
+    >
+      Update
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    focusable={true}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#3498DB",
+        "borderRadius": 5,
+        "height": 40,
+        "justifyContent": "center",
+        "marginBottom": 10,
+        "marginHorizontal": 40,
+        "maxWidth": 200,
+        "opacity": 1,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#fff",
+          "fontSize": 20,
+          "fontWeight": "700",
+        }
+      }
+    >
+      Delete
+    </Text>
+  </View>
+</View>
+`;

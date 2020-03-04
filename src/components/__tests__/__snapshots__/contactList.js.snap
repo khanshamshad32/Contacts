@@ -1,0 +1,589 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact List should render correctly 1`] = `
+Array [
+  <RCTScrollView
+    bounces={true}
+    bouncesZoom={true}
+    data={
+      Array [
+        Object {
+          "id": 1,
+          "name": "Jack",
+        },
+        Object {
+          "id": 2,
+          "name": "Zoe",
+        },
+        Object {
+          "favourite": true,
+          "id": 3,
+          "name": "Ola",
+        },
+        Object {
+          "favourite": true,
+          "id": 4,
+          "name": "Erick",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    extraData={
+      Array [
+        Object {
+          "id": 1,
+          "name": "Jack",
+        },
+        Object {
+          "id": 2,
+          "name": "Zoe",
+        },
+        Object {
+          "favourite": true,
+          "id": 3,
+          "name": "Ola",
+        },
+        Object {
+          "favourite": true,
+          "id": 4,
+          "name": "Erick",
+        },
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    style={
+      Object {
+        "backgroundColor": "#fff",
+      }
+    }
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "height": 80,
+              "marginLeft": 30,
+              "marginVertical": 3,
+              "opacity": 1,
+              "padding": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "aspectRatio": 1,
+                "borderColor": "grey",
+                "borderRadius": 25,
+                "borderWidth": 1,
+                "height": 50,
+                "overflow": "hidden",
+              }
+            }
+          >
+            <Image
+              resizeMode="cover"
+              source={
+                Object {
+                  "uri": "ic_account",
+                }
+              }
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            />
+          </View>
+          <Text
+            style={
+              Object {
+                "color": "rgba(0,0,0,0.87)",
+                "fontSize": 18,
+                "fontWeight": "600",
+                "marginLeft": 20,
+              }
+            }
+          >
+            Jack
+          </Text>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "height": 80,
+              "marginLeft": 30,
+              "marginVertical": 3,
+              "opacity": 1,
+              "padding": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "aspectRatio": 1,
+                "borderColor": "grey",
+                "borderRadius": 25,
+                "borderWidth": 1,
+                "height": 50,
+                "overflow": "hidden",
+              }
+            }
+          >
+            <Image
+              resizeMode="cover"
+              source={
+                Object {
+                  "uri": "ic_account",
+                }
+              }
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            />
+          </View>
+          <Text
+            style={
+              Object {
+                "color": "rgba(0,0,0,0.87)",
+                "fontSize": 18,
+                "fontWeight": "600",
+                "marginLeft": 20,
+              }
+            }
+          >
+            Zoe
+          </Text>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "height": 80,
+              "marginLeft": 30,
+              "marginVertical": 3,
+              "opacity": 1,
+              "padding": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "aspectRatio": 1,
+                "borderColor": "grey",
+                "borderRadius": 25,
+                "borderWidth": 1,
+                "height": 50,
+                "overflow": "hidden",
+              }
+            }
+          >
+            <Image
+              resizeMode="cover"
+              source={
+                Object {
+                  "uri": "ic_account",
+                }
+              }
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            />
+          </View>
+          <Text
+            style={
+              Object {
+                "color": "rgba(0,0,0,0.87)",
+                "fontSize": 18,
+                "fontWeight": "600",
+                "marginLeft": 20,
+              }
+            }
+          >
+            Ola
+          </Text>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "height": 80,
+              "marginLeft": 30,
+              "marginVertical": 3,
+              "opacity": 1,
+              "padding": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "aspectRatio": 1,
+                "borderColor": "grey",
+                "borderRadius": 25,
+                "borderWidth": 1,
+                "height": 50,
+                "overflow": "hidden",
+              }
+            }
+          >
+            <Image
+              resizeMode="cover"
+              source={
+                Object {
+                  "uri": "ic_account",
+                }
+              }
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            />
+          </View>
+          <Text
+            style={
+              Object {
+                "color": "rgba(0,0,0,0.87)",
+                "fontSize": 18,
+                "fontWeight": "600",
+                "marginLeft": 20,
+              }
+            }
+          >
+            Erick
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>,
+  <View
+    accessible={true}
+    focusable={true}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "aspectRatio": 1,
+        "borderRadius": 25,
+        "bottom": 40,
+        "opacity": 1,
+        "overflow": "hidden",
+        "position": "absolute",
+        "right": 30,
+        "width": 50,
+      }
+    }
+  >
+    <Image
+      resizeMode="contain"
+      source={
+        Object {
+          "uri": "ic_add",
+        }
+      }
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    />
+  </View>,
+]
+`;
+
+exports[`Favourite Contact List should render correctly 1`] = `
+<RCTScrollView
+  bounces={true}
+  bouncesZoom={true}
+  data={
+    Array [
+      Object {
+        "favourite": true,
+        "id": 3,
+        "name": "Ola",
+      },
+      Object {
+        "favourite": true,
+        "id": 4,
+        "name": "Erick",
+      },
+    ]
+  }
+  disableVirtualization={false}
+  extraData={
+    Array [
+      Object {
+        "favourite": true,
+        "id": 3,
+        "name": "Ola",
+      },
+      Object {
+        "favourite": true,
+        "id": 4,
+        "name": "Erick",
+      },
+    ]
+  }
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={false}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  numColumns={1}
+  onContentSizeChange={[Function]}
+  onEndReachedThreshold={2}
+  onLayout={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  stickyHeaderIndices={Array []}
+  style={
+    Object {
+      "backgroundColor": "#fff",
+    }
+  }
+  updateCellsBatchingPeriod={50}
+  viewabilityConfigCallbackPairs={Array []}
+  windowSize={21}
+>
+  <View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "height": 80,
+            "marginLeft": 30,
+            "marginVertical": 3,
+            "opacity": 1,
+            "padding": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "aspectRatio": 1,
+              "borderColor": "grey",
+              "borderRadius": 25,
+              "borderWidth": 1,
+              "height": 50,
+              "overflow": "hidden",
+            }
+          }
+        >
+          <Image
+            resizeMode="cover"
+            source={
+              Object {
+                "uri": "ic_account",
+              }
+            }
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          />
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "rgba(0,0,0,0.87)",
+              "fontSize": 18,
+              "fontWeight": "600",
+              "marginLeft": 20,
+            }
+          }
+        >
+          Ola
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "height": 80,
+            "marginLeft": 30,
+            "marginVertical": 3,
+            "opacity": 1,
+            "padding": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "aspectRatio": 1,
+              "borderColor": "grey",
+              "borderRadius": 25,
+              "borderWidth": 1,
+              "height": 50,
+              "overflow": "hidden",
+            }
+          }
+        >
+          <Image
+            resizeMode="cover"
+            source={
+              Object {
+                "uri": "ic_account",
+              }
+            }
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          />
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "rgba(0,0,0,0.87)",
+              "fontSize": 18,
+              "fontWeight": "600",
+              "marginLeft": 20,
+            }
+          }
+        >
+          Erick
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;
